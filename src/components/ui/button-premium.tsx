@@ -17,7 +17,8 @@ const buttonVariants = cva(
         // Premium variants
         luxury: "bg-gradient-primary text-primary-foreground shadow-luxury hover:shadow-xl transform hover:scale-105 border border-primary/20",
         premium: "bg-card border border-primary/30 text-foreground hover:bg-gradient-primary hover:text-primary-foreground shadow-premium transform hover:scale-105",
-        hero: "bg-transparent border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground shadow-luxury text-lg px-8 py-4 rounded-lg"
+        hero: "bg-transparent border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground shadow-luxury text-lg px-8 py-4 rounded-lg",
+        success: "bg-success text-success-foreground shadow-luxury hover:shadow-xl transform hover:scale-105 border border-success/20 hover:bg-success/90"
       },
       size: {
         default: "h-9 px-4 py-2",

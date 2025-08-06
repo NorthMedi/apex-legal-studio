@@ -63,7 +63,7 @@ export const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up">
-            <Button variant="luxury" size="xl" className="group">
+            <Button variant="success" size="xl" className="group">
               Quero uma Consultoria Gratuita
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
